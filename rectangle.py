@@ -6,7 +6,7 @@ class Rectangle:
         self.set_length(length)
         self.set_width(width)
     
-   def set_length(self, length):
+    def set_length(self, length):
         if length >= 0:
             self.length = length
         else:
@@ -20,7 +20,7 @@ class Rectangle:
     
     def get_length(self):
         return self.length
-    
+ 
     def get_width(self):
         return self.width
     
